@@ -1,0 +1,127 @@
+/* Titre localisation */
+h1{
+  font-size: 16px;
+  font-weight: bold;
+  color: #896A29;
+}
+
+/* Titre résidence */
+h2{
+  font-size: 16px;
+  font-weight: bold;
+  color: #23698A;
+}
+
+/* Miniature principale */
+#waterpool{
+  width: 220px;
+}
+
+/* Texte de la promotion */
+.promoText{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Div de la promotion */
+.promoDiv{
+  background-color: #623F19;
+  height: 28px;
+}
+
+/* Prix */
+#price{
+  font-size: 42px;
+  color: #473716;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Texte ancien prix (ensemble) */
+.lastPrice{
+  color: #23698A;
+}
+
+/* Ancien prix barré */
+#lastPriceIndicator{
+  text-decoration: line-through;
+}
+
+/* Paragraphes et zones de texte */
+p,span{
+  margin: auto;
+}
+
+/* Titre des infos principales, à côté de la miniature */
+.infoTitles{
+  color: #23698A;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* Texte des infos principales, à côté de la miniature */
+.infoContent{
+  color: #23698A;
+  font-size: 12px;
+}
+
+/* Date de départ, en-dessous du prix */
+.departureDate{
+  font-size: 16px;
+  font-weight: bold;
+  color: #896A29;
+  text-align: center;
+}
+
+/* Infos et Réservations */
+#infos{
+  background-color: #623F19;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Image : Avis d'internautes */
+#notation{
+  width: 100%;
+}
+
+/* Image : Ajouter à ma sélection */
+#addList{
+  width: 100%;
+}
+
+/* Comparer les offres */
+#compare{
+  color: #23698A;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Liste de choix : titres */
+.choicesTitles{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Liste de choix : contenu */
+.choicesContent{
+  font-size: 12px;
+  color: #333333;
+}
+
+/* Liste de choix : prix */
+.choicesPrice{
+  font-size: 28px;
+  color: #23698A;
+  margin-left: 20px;
+}
+
+/* Liste de choix : couleur de fond */
+.lightGreyBackground{
+  background-color: lightgrey;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title></title>
+  </head>
+  <body>
+      <!-- container Bootstrap -->
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Partie gauche (9/12 colonnes) -->
+          <div class="col-sm-9">
+            <div class="d-flex justify-content-between">
+              <div class="">
+                <!-- Titres région / lieu -->
+                <h1>Côte d'Azur - Nice</h1>
+                <h2>Résidence des Pra Palier</h2>
+              </div>
+              <div>
+                <img src="img/carte.jpg" alt="Montagne voir la carte">
+              </div>
+            </div>
+            <div class="d-flex">
+              <div>
+                <!-- Miniature principale -->
+                <img src="img/photo.jpg" alt="Résidence des Pra Palier Nice Piscine" id="waterpool">
+              </div>
+              <div>
+                <!-- Informations principales -->
+                <div>
+                  <p class="infoTitles">Résidence :</p>
+                  <p class="infoContent">Résidence standing avec piscine chauffée, SPA & Hamam.</p>
+                  <p class="infoTitles">Situation :</p>
+                  <p class="infoContent">Résidence standing avec piscine chauffée, SPA & Hamam.</p>
+                </div>
+                <div>
+                  <!-- Images informations (enfants gratuits...) -->
+                  <img src="img/enfants_gratuits.jpg" alt="enfants gratuits voyage icone">
+                  <img src="img/all_incllusive.jpg" alt="all inclusive voyage icone">
+                  <img src="img/annulation.jpg" alt="annulation voyage icone">
+                </div>
+              </div>
+            </div>
+            <!-- Liste des choix de réservaion -->
+            <div class="d-flex justify-content-between lightGreyBackground mt-2">
+              <div>
+                <p class="choicesTitles">Studio 4 personnes</p>
+                <p class="choicesContent">35 mètres carré, baignoire, cuisine équipée, lits superposés</p>
+              </div>
+              <div class="d-flex">
+                <span class="lastPrice" id="lastPriceIndicator">354€ </span><span class="choicesPrice">290€</span><span>/appt</span>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div>
+                <p class="choicesTitles">2 pièces 4/6 personnes</p>
+                <p class="choicesContent">35 mètres carré, baignoire, cuisine équipée, lits superposés</p>
+              </div>
+              <div class="d-flex">
+                <span class="lastPrice" id="lastPriceIndicator">354€ </span><span class="choicesPrice">290€</span><span>/appt</span>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between lightGreyBackground">
+              <div>
+                <p class="choicesTitles">3 pièces Duplex 8 personnes</p>
+                <p class="choicesContent">35 mètres carré, baignoire, cuisine équipée, lits superposés</p>
+              </div>
+              <div class="d-flex">
+                <span class="lastPrice" id="lastPriceIndicator">354€ </span><span class="choicesPrice">290€</span><span>/appt</span>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div>
+                <p class="choicesTitles">Chalet 3 Pièces 6 personnes</p>
+                <p class="choicesContent">35 mètres carré, baignoire, cuisine équipée, lits superposés</p>
+              </div>
+              <div class="d-flex">
+                <span class="lastPrice" id="lastPriceIndicator">354€ </span><span class="choicesPrice">290€</span><span>/appt</span>
+              </div>
+            </div>
+          </div>
+          <!-- Partie droite (3/12 colonnes) -->
+          <div class="col-sm-3">
+            <div class="d-flex justify-content-between promoDiv">
+              <p class="promoText">PROMO</p>
+              <p class="promoText">- 35%</p>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+              <div class="d-flex justify-content-center align-items-center">
+                <div>
+                  <span class="lastPrice">à partir de </span><span class="lastPrice" id="lastPriceIndicator">354€ </span>
+                </div>
+                <div>
+                  <span id="price">290€</span><span> /appt</span>
+                </div>
+              </div>
+              <p class="departureDate">Départ le 21/02/09</p>
+            </div>
+            <p id="infos">INFOS ET RÉSERVATION</p>
+            <img src="img/avis.jpg" id="notation" alt="avis des internautes">
+            <img src="img/compare.jpg" id="addList" alt="Ajouter à ma sélection">
+            <p id="compare">COMPARER LES OFFRES</p>
+          </div>
+        </div>
+      </div>
+      <!-- scripts JQuery, Popper et Bootstrap-->
+      <script src="assets/js/jquery-3.4.0.min.js"></script>
+      <script src="assets/js/popper.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <!-- mon script principal -->
+      <script src="assets/js/main.js"></script>
+  </body>
+</html>
